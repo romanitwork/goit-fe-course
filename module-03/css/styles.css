@@ -1,0 +1,137 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    font-family:"Playfair Display","Arial", sans-serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container{
+    width: 903px;
+    margin: 0 auto;
+}
+
+img{
+    margin-bottom: 30px;
+}
+
+.content-category{
+    font-family: "Ubuntu";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: 33px;
+}
+
+.article-name{
+    font-size: 30px;
+    line-height: 36px;
+    margin-bottom: 36px;
+}
+
+.article-text{
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 130px;
+}
+
+.content-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+
+}
+
+.content-list-item{
+    display: inline-block;
+    width: 421px;
+    margin-right: 61px;
+}
+.content-list-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.main-nav{
+    padding: 77px 0;
+}
+
+.main-menu{
+    display: inline-block;
+    width: 901px;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.main-menu li{
+    display: inline-block;
+}
+.main-menu-item1{
+    margin-right: 123px;
+}
+.main-menu-item2{
+    margin-right: 104px;
+}
+.main-menu-item3{
+    margin-right: 98px;
+}
+.main-menu-item4{
+    margin-right: 0;
+}
+
+.main-menu a{
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-menu a:hover{
+    color: #03a9f4;
+}
+
+.load-button{
+    margin: 0;
+    padding: 0;
+    width: 164px;
+    height: 60px;
+    background-color: white;
+    border-width: 1px;
+    border-color: rgb(98, 98, 98);
+    border-style: solid;
+    position: absolute;
+    cursor: pointer;
+    margin-bottom: 70px;
+    margin-left: 360px;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
