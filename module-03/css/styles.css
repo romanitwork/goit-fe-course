@@ -30,19 +30,21 @@ img{
     line-height: 17px;
     text-transform: uppercase;
     color: #b4ad9e;
+    margin: 0;
     margin-bottom: 33px;
 }
 
 .article-name{
     font-size: 30px;
     line-height: 36px;
+    margin: 0;
     margin-bottom: 36px;
 }
 
 .article-text{
     font-size: 14px;
     line-height: 17px;
-    margin-bottom: 130px;
+    margin: 0;
 }
 
 .content-list{
@@ -67,8 +69,7 @@ img{
 }
 
 .main-menu{
-    display: inline-block;
-    width: 901px;
+    font-size: 0;
     text-align: center;
     list-style: none;
     margin: 0;
@@ -93,6 +94,7 @@ img{
 }
 
 .main-menu a{
+    display: block;
     font-size: 14px;
     line-height: 24px;
     color: #626262;
@@ -104,7 +106,6 @@ img{
 }
 
 .load-button{
-    margin: 0;
     padding: 0;
     width: 164px;
     height: 60px;
@@ -112,10 +113,10 @@ img{
     border-width: 1px;
     border-color: rgb(98, 98, 98);
     border-style: solid;
-    position: absolute;
     cursor: pointer;
-    margin-bottom: 70px;
-    margin-left: 360px;
+    display: block;
+    margin: 0 auto;
+
 }
 
 .visually-hidden:not(:focus):not(:active),
