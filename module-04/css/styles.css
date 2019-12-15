@@ -59,7 +59,7 @@ padding-bottom: 101px;
 }
 
 .menu-list a{
-    color:#0f0101;
+    color:black;
     text-transform: uppercase;
     text-decoration: none;
     line-height: 11px;
@@ -147,8 +147,8 @@ h2::after{
 }
 
 .featured-item h3{
-    color: #fff;
-    background-color: #000;
+    color: white;
+    background-color: black;
     font-size: 18px;
     line-height: 32px;
     font-family: Roboto;
@@ -173,17 +173,17 @@ h2::after{
     width: 185px;
 }
 
-.featured-coast{
+.featured-price{
     float:right;
     width: 55px;
     text-align: center;
 }
 
-.featured-coast::before{
+.featured-price::before{
     content: "\0024";
 }
 
-.featured-item:hover .featured-coast{
+.featured-item:hover .featured-price{
     background-color: #7fd9c7;
 }
 
