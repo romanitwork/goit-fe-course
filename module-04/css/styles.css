@@ -147,6 +147,7 @@ h2::after{
 }
 
 .featured-item h3{
+    text-transform: uppercase;
     color: white;
     background-color: black;
     font-size: 18px;
