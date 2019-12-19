@@ -305,7 +305,6 @@ color:#1abc9c;
 }
 
 .overlay-like, .overlay-compare, .overlay-time, .overlay-bucket{
-    border: none;
     padding: 0;
     margin: 0;
     height: 48px;
@@ -352,18 +351,22 @@ color:#1abc9c;
 
 .overlay-like:hover{
     background-color: #1abc9c;
+    border: 1px solid transparent;
 }
 
 .overlay-compare:hover{
     background-color: #1abc9c;
+    border: 1px solid transparent;
 }
 
 .overlay-time:hover{
     background-color: #1abc9c;
+    border: 1px solid transparent;
 }
 
 .overlay-bucket:hover{
     background-color: #1abc9c;
+    border: 1px solid transparent;
 }
 
 .page-footer{
