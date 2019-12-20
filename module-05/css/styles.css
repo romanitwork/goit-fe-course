@@ -267,12 +267,10 @@ color:#1abc9c;
     content: "\0024";
 }
 
-.product-item:hover .product-name{
+.product-item:hover .product-adj-box{
     background-color: #1abc9c;
 }
-.product-item:hover .product-price{
-    background-color: rgba(26, 188, 156, .44);
-}
+
 
 .overlay{
     position: absolute;
