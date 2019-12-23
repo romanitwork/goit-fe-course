@@ -224,12 +224,13 @@ ul, ol{
 
 .team-prev{
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 15px;
     line-height: 24px;
     color: #999999;
     padding-top: 38px;
     margin: 0 auto;
-    width: 948px;
+    min-width: 948px;
     text-align: center;
 }
 
@@ -331,6 +332,7 @@ ul, ol{
     font-weight: 300;
     color: #999999;
     text-align: center;
+    font-style: italic;
 }
 
 /*FOOTER------------------------------------------------------*/
@@ -390,21 +392,3 @@ form{
     font-weight: 700;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
