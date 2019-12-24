@@ -316,3 +316,15 @@ textarea{
 .contact-form-input:focus {
     outline-offset: -1px;
 }
+
+.contact-textarea:required:focus:valid {
+    outline: 3px solid green;
+}
+
+.contact-textarea:required:focus:invalid {
+    outline: 3px solid red;
+}
+
+.contact-textarea:focus {
+    outline-offset: -1px;
+}
