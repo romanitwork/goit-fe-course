@@ -229,7 +229,7 @@ img {
 }
 
 .contact-name{
-    padding-top: 108px;
+    padding-top: 54px;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
@@ -249,7 +249,70 @@ img {
     text-align: center;
 }
 
-.contact-form-box{
+form{
+    padding-top: 78px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+input,
+textarea{
+    padding-left: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    width: 454px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.contact-form-list input{
+    height: 52px;
+    margin: auto 0;
+}
+
+.contact-form-list{
+    width: 452px;
+}
+
+textarea{
+    width: 454px;
+    height: 217px;
+    background-color: #ffffff;
+    padding-top: 16px;
+    resize: none;
+}
+
+.contact-form-list li{
+    margin-bottom: 30px;
+}
+
+.contact-btn{
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 22px;
+        font-family: Montserrat, sans-serif;
+        padding: 23px 45px;
+        background-color: rgb(254, 209, 54);
+        border-radius: 3px;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        margin: 0 auto;
+        cursor: pointer;
+}
+
+.contact-form-input:required:focus:valid {
+    outline: 3px solid green;
+}
+
+.contact-form-input:required:focus:invalid {
+    outline: 1px solid red;
+}
+
+.contact-form-input:focus {
+    outline-offset: -1px;
 }
