@@ -395,4 +395,13 @@ ul li{
     .section2btn{
         margin-bottom: 72px;
     }
+
+    .section1{
+        background-color: black;
+        background-image: url(../img/backgroundlg.png);
+        background-size: cover;
+        width: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+    }
 }
