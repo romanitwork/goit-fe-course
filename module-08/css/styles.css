@@ -300,10 +300,10 @@ ul li{
     cursor: pointer;
 }
 
-@media (min-width: 768px){
+@media (min-width: 748px){
     
     .container{
-        width: 46.75rem;
+        width: 748px;
     }
 
     .site-logo-stand{
@@ -376,14 +376,14 @@ ul li{
     }
 
 }
-@media (max-width: 1439px){
+@media (max-width: 939px){
     .team-list{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 }
-@media (min-width: 1440px){
+@media (min-width: 940px){
     .container{
         width: 940px;
     }
