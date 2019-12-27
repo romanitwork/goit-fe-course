@@ -1,0 +1,16 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'normalize.scss';
+@import './helpers/variables.scss';
+@import './helpers/placeholders.scss';
+@import 'base.scss';
+@import './helpers/fonts.scss';
+
+// SECTIONS
+@import './sections/header.scss';
+@import './sections/section1.scss';
+@import './sections/services.scss';
+@import './sections/team.scss';
+@import './sections/footer.scss';
